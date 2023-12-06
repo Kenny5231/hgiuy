@@ -49,6 +49,7 @@ public class Raking extends javax.swing.JFrame {
         // Imprimir el Ranking
         for (String usuario : Ranking) {
             text+=usuario+"\n";
+            // return text;
         }
         jTextArea1.setText(text);
 
